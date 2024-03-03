@@ -1,0 +1,12 @@
+.header__record-lettering {
+    display: inline-block;
+    font-family: var(--main-font);
+    color: var(--accent-color);
+    line-height: 1.4em;
+    position: absolute;
+    top: 0;
+    right: 30px;
+
+
+
+}

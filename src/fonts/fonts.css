@@ -3,8 +3,6 @@
   src: url(./IBMPlexMono-Regular.woff) format('woff');
   font-weight: normal;
   font-display: swap;
-  font-size: 18px;
-  line-height: 1.3em;
 }
 
 @font-face {
@@ -12,9 +10,4 @@
   src: url(./IBMPlexMono-Bold.woff) format('woff');
   font-weight: bold;
   font-display: swap;
-  font-size: 18px;
-  line-height: 1.3em;
 }
-
-
-

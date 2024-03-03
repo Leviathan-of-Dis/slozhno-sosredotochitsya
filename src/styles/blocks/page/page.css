@@ -1,0 +1,14 @@
+.page {
+    background-color: var(--bg-color);
+    min-inline-size: 375px;
+    max-inline-size: 1440px;
+    margin: 10px;
+    position: relative;
+}
+
+@media (width > 768px) {
+
+    .page {
+      margin: 20px;
+    }
+  }

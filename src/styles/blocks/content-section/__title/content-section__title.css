@@ -1,0 +1,4 @@
+.content-section__title {
+    font-family: var(--accent-font);
+    color: var(--main-title-color);
+}
