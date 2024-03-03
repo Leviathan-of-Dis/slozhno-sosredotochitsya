@@ -1,12 +1,21 @@
 .header__record-lettering {
-    display: inline-block;
     font-family: var(--main-font);
     color: var(--accent-color);
     line-height: 1.4em;
     position: absolute;
     top: 0;
-    right: 30px;
+    right: 28px;
+}
 
-
-
+.header__record-lettering::after {
+    content: "";
+    display: flex;
+    background-color: var(--accent-color);
+    inline-size: 9px;
+    block-size: 9px;
+    position: absolute;
+    top: 8px;
+    left: 43px;
+    border-radius: 9px;
+    box-shadow: 0 0 4px 2px;
 }

@@ -6,12 +6,14 @@
   box-sizing: border-box;
 }
 
+body,
 h1,
 h2,
 h3,
 h4,
 span,
 p {
+  margin: 0;
   font-size: 18px;
   line-height: 1.3em
 }

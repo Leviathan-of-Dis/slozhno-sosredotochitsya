@@ -1,14 +1,20 @@
 .page {
-    background-color: var(--bg-color);
-    min-inline-size: 375px;
-    max-inline-size: 1440px;
-    margin: 10px;
-    position: relative;
+  inline-size: clamp(375px, 100dvi, 1440px);
+  block-size: clamp(668px, 100dvb, 1024px);
+  padding: 10px;
+  position: relative;
+  background-color: var(--bg-color); 
+  background-image: url(/images/cover-image-dark.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
 }
 
-@media (width > 768px) {
+@media (width >= 768px) {
 
     .page {
-      margin: 20px;
+      padding: 20px;
     }
   }
