@@ -1,4 +1,5 @@
 .content-section__text {
     font-family: var(--main-font);
     color: var(--main-color);
+    margin-block-start: 10px;
 }

@@ -1,4 +1,11 @@
 .content-section {
-    display: grid;
     inline-size: 100%;
+    margin-block-end: 50px;
+}
+
+@media (width >= 768px) {
+
+    .content-section {
+      margin-block-end: 80px;
+    }
 }

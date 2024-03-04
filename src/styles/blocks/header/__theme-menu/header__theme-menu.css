@@ -1,0 +1,4 @@
+.header__theme-menu {
+    display: flex;
+    justify-self: end;
+}

@@ -1,0 +1,6 @@
+.header__theme-menu__button {
+    background-color: transparent;
+    border: none;
+    color: var(--accent-color);
+    font-family: var(--main-font);
+}

@@ -1,6 +1,6 @@
 .page {
-  inline-size: clamp(375px, 100dvi, 1440px);
-  block-size: clamp(668px, 100dvb, 1024px);
+  inline-size: clamp(375px, 100%, 1440px);
+  block-size: clamp(668px, 100%, 1024px);
   padding: 10px;
   position: relative;
   background-color: var(--bg-color); 

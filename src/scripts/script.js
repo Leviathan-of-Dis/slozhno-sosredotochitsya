@@ -1,23 +1,23 @@
-const themeButtons = document.querySelectorAll('.header__theme-menu-button');
+const themeButtons = document.querySelectorAll('.header__theme-menu__button');
 
 themeButtons.forEach((button) => {
   button.addEventListener('click', () => {
     themeButtons.forEach((btn) => {
-      btn.classList.remove('header__theme-menu-button_active');
+      btn.classList.remove('header__theme-menu__button_active');
       btn.removeAttribute('disabled');
     });
     if (
-      [...button.classList].includes('header__theme-menu-button_type_light')
+      [...button.classList].includes('header__theme-menu__button_type_light')
     ) {
       changeTheme('light');
     } else if (
-      [...button.classList].includes('header__theme-menu-button_type_dark')
+      [...button.classList].includes('header__theme-menu__button_type_dark')
     ) {
       changeTheme('dark');
     } else {
       changeTheme('auto');
     }
-    button.classList.add('header__theme-menu-button_active');
+    button.classList.add('header__theme-menu__button_active');
     button.setAttribute('disabled', true);
   });
 });
@@ -33,14 +33,14 @@ function initTheme() {
   if (theme) {
     changeTheme(theme);
     themeButtons.forEach((btn) => {
-      btn.classList.remove('header__theme-menu-button_active');
+      btn.classList.remove('header__theme-menu__button_active');
       btn.removeAttribute('disabled');
     });
     document
-      .querySelector(`.header__theme-menu-button_type_${theme}`)
-      .classList.add('header__theme-menu-button_active');
+      .querySelector(`.header__theme-menu__button_type_${theme}`)
+      .classList.add('header__theme-menu__button_active');
     document
-      .querySelector(`.header__theme-menu-button_type_${theme}`)
+      .querySelector(`.header__theme-menu__button_type_${theme}`)
       .setAttribute('disabled', true);
   }
 }

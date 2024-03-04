@@ -1,4 +1,39 @@
 .footer {
-    display: grid;
-    inline-size: 100%;
+  display: grid;
+  inline-size: 100%;
+  block-size: calc(100dvb - 20px);
+  position: relative;
+  align-items: center;
+  margin-block-start: 40px;
+}
+
+@media (width >= 768px) {
+
+  .footer {
+    margin-block-start: 60px;
+  }
+}
+
+.footer::before {
+  content: "";
+  display: flex;
+  inline-size: 25px;
+  block-size: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-inline-end: 1px solid var(--accent-color);
+  border-block-start: 1px solid var(--accent-color);
+}
+
+.footer::after {
+  content: "";
+  display: flex;
+  inline-size: 25px;
+  block-size: 25px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-inline-start: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--accent-color);
 }
