@@ -1,0 +1,19 @@
+.header__text {
+    display: flex;
+    inline-size: clamp(355px, 100%, 364px);
+    justify-self: end;
+}
+
+@media (1024px >= width > 768px) {
+
+    .header__text {
+      inline-size: clamp(364px, 47.95vi, 491px);
+    }
+}
+
+@media (width > 1024px) {
+
+    .header__text {
+        inline-size: clamp(491px, 48vi, 100%);
+    }
+}

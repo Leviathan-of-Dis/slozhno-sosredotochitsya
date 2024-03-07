@@ -4,6 +4,7 @@
   --decoreted-text-color: #000028;
   --main-title-color: #DB00FF;
   --accent-color: #FF0070;
+  --accent-color-hover: #FF0070CC;
   --main-font: "IBM Plex mono Regular", sans-serif;
   --accent-font: "IBM Plex mono Bold", sans-serif;
 }

@@ -3,4 +3,14 @@
     border: none;
     color: var(--accent-color);
     font-family: var(--main-font);
+    padding: 0 13px;
+}
+
+.header__theme-menu__button:hover {
+    border: 1px solid var(--accent-color-hover);
+}
+
+.header__theme-menu__button:is(:focus, :focus-visible) {
+    outline: none;
+    border-block-end: 1px solid var(--accent-color);
 }

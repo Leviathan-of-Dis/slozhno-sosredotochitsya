@@ -2,3 +2,10 @@
     display: flex;
     justify-self: end;
 }
+
+@media (width >= 1024px) {
+
+    .header__theme-menu {
+      justify-self: center;
+    }
+  }
