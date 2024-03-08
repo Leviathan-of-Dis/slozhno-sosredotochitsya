@@ -1,0 +1,14 @@
+.header__title {
+  font-family: var(--accent-font);
+  font-size: clamp(7.25rem, 7.0121rem + 1.0724vw, 7.5rem);;
+  color: var(--main-title-color);
+  text-shadow: 4px 4px 0 var(--main-title-shadow-color);
+  line-height: 82.5%;
+}
+
+@media (width >= 768px) {
+
+  .header__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+}

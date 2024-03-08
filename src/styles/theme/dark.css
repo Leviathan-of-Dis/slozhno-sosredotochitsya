@@ -1,4 +1,4 @@
-:root {
+.page.theme_dark {
   --bg-color: #000028;
   --main-color: #F1B2CE;
   --decoreted-text-color: #000028;
@@ -11,5 +11,5 @@
   --main-font: "IBM Plex mono Regular", sans-serif;
   --accent-font: "IBM Plex mono Bold", sans-serif;
   --bg-image: url(/images/cover-image-dark.png);
-  --max-amount-of-rows: 6;
+  --rec-lettering: flex;
 }

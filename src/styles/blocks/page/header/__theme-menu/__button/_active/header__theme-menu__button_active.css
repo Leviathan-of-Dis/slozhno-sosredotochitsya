@@ -1,0 +1,4 @@
+.header__theme-menu__button_active {
+    border: 1px solid var(--title-color);
+    pointer-events: none;
+}
