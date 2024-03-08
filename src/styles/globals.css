@@ -15,7 +15,7 @@ p {
   margin-block-start: 0;
   margin-block-end: 0;
   font-size: 18px;
-  line-height: 1.3em
+  line-height: 1.3em;
 }
 
 ul {
@@ -44,7 +44,7 @@ a {
   line-height: inherit;
 }
 
-.decorated-text{
+.decorated-text {
   color: var(--decoreted-text-color);
   background-color: var(--accent-color);
 }

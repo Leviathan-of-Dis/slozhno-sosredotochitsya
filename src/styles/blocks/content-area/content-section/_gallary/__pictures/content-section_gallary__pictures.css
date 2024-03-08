@@ -1,19 +1,18 @@
 .content-section_gallary__pictures {
-    display: inherit;
-    flex-direction: column;
-    gap: 10px;
+  display: inherit;
+  flex-direction: column;
+  gap: 10px;
 }
 
 @media (width >= 768px) {
-
-    .content-section_gallary__pictures {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 24dvi 1fr 40dvi;
-      grid-template-areas:
-        "sunset sunset ice-cream"
-        "tape books ice-cream"
-        "tape street street";
-      gap: 20px;
-    }
+  .content-section_gallary__pictures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 24dvi 1fr 40dvi;
+    grid-template-areas:
+      'sunset sunset ice-cream'
+      'tape books ice-cream'
+      'tape street street';
+    gap: 20px;
   }
+}

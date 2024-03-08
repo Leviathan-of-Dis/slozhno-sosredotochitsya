@@ -2,11 +2,9 @@
   display: grid;
   inline-size: 100%;
   gap: 20px;
-
 }
 
 @media (width >= 768px) {
-
   .content-section {
     row-gap: 0;
   }
@@ -18,7 +16,6 @@
 }
 
 @media (width >= 1024px) {
-
   .content-section:nth-child(2) {
     grid-template-columns: repeat(3, 1fr);
   }

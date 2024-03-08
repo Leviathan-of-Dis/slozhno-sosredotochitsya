@@ -1,11 +1,10 @@
 .header__theme-menu {
-    display: flex;
-    justify-self: end;
+  display: flex;
+  justify-self: end;
 }
 
 @media (width >= 1024px) {
-
-    .header__theme-menu {
-      justify-self: center;
-    }
+  .header__theme-menu {
+    justify-self: center;
   }
+}

@@ -7,18 +7,16 @@
   margin: 0 auto;
   padding: 10px;
   position: relative;
-  background-color: var(--bg-color); 
+  background-color: var(--bg-color);
   background-image: var(--bg-image);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-
 }
 
 @media (width >= 768px) {
-
-    .page {
-      padding: 20px;
-    }
+  .page {
+    padding: 20px;
   }
+}

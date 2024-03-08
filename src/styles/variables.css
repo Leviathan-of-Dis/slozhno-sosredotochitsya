@@ -1,15 +1,15 @@
 :root {
   --bg-color: #000028;
-  --main-color: #F1B2CE;
+  --main-color: #f1b2ce;
   --decoreted-text-color: #000028;
-  --main-title-color: #DB00FF;
-  --frame-color: #FF0070;
-  --title-color: #FF0070;
-  --accent-color: #FF0070;
-  --main-title-shadow-color: #FF0070;
-  --accent-color-hover: #FF0070CC;
-  --main-font: "IBM Plex mono Regular", sans-serif;
-  --accent-font: "IBM Plex mono Bold", sans-serif;
+  --main-title-color: #db00ff;
+  --frame-color: #ff0070;
+  --title-color: #ff0070;
+  --accent-color: #ff0070;
+  --main-title-shadow-color: #ff0070;
+  --accent-color-hover: #ff0070cc;
+  --main-font: 'IBM Plex mono Regular', sans-serif;
+  --accent-font: 'IBM Plex mono Bold', sans-serif;
   --bg-image: url(/images/cover-image-dark.png);
   --max-amount-of-rows: 6;
 }

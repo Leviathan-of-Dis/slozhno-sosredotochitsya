@@ -1,5 +1,4 @@
 .content-section:nth-child(3) .content-section__partitle {
-    font-family: var(--main-font);
-    font-weight: normal
+  font-family: var(--main-font);
+  font-weight: normal;
 }
-

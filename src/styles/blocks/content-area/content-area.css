@@ -1,15 +1,13 @@
 .content-area {
-    display: flex;
-    flex-direction: column;
-    row-gap: 50px;
-    inline-size: calc(100dvi - 20px);
-
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  inline-size: calc(100dvi - 20px);
 }
 
 @media (width >= 768px) {
-
-    .content-area {
-      row-gap: 80px;
-      inline-size: calc(100dvi - 40px);
-    }
+  .content-area {
+    row-gap: 80px;
+    inline-size: calc(100dvi - 40px);
+  }
 }

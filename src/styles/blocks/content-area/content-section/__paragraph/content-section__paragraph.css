@@ -1,18 +1,16 @@
 .content-section__paragraph {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 @media (width >= 768px) {
-
-    .content-section__paragraph:not(:nth-child(2)) {
-      margin-block-start: 20px;
-    }
+  .content-section__paragraph:not(:nth-child(2)) {
+    margin-block-start: 20px;
+  }
 }
 
 @media (width >= 1024px) {
-
   .content-section:nth-child(2) .content-section__paragraph:not(:nth-child(2)) {
     margin-block-start: 0;
   }

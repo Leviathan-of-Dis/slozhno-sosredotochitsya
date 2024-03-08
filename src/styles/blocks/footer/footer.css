@@ -9,16 +9,15 @@
 }
 
 @media (width >= 768px) {
-
   .footer {
     margin-block-start: 60px;
     inline-size: calc(100dvi - 40px);
-    block-size: calc(100dvb - 40px)
+    block-size: calc(100dvb - 40px);
   }
 }
 
 .footer::before {
-  content: "";
+  content: '';
   display: flex;
   inline-size: 25px;
   block-size: 25px;
@@ -30,7 +29,7 @@
 }
 
 .footer::after {
-  content: "";
+  content: '';
   display: flex;
   inline-size: 25px;
   block-size: 25px;
