@@ -1,5 +1,5 @@
 
-# [HTTPS ссылка на репозиторий](https://github.com/Leviathan-of-Dis/ono-tebe-nado.git)
+# [HTTPS ссылка на репозиторий](https://github.com/Leviathan-of-Dis/slozhno-sosredotochitsya.git)
 
 ## Изменения после ревью
 1. Отключена работа HTML-minifier
