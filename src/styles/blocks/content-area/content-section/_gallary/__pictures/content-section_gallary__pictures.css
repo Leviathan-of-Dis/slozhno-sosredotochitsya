@@ -5,6 +5,7 @@
 }
 
 @media (width >= 768px) {
+
   .content-section_gallary__pictures {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

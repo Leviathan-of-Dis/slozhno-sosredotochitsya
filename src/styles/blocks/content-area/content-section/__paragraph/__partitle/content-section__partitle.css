@@ -1,4 +1,9 @@
+.content-section__partitle {
+  font-family: var(--main-font);
+  font-weight: bold;
+}
+
 .content-section:nth-child(3) .content-section__partitle {
   font-family: var(--main-font);
-  font-weight: normal;
+  font-weight: bold;
 }

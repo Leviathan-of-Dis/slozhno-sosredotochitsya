@@ -8,6 +8,7 @@
 }
 
 @media (width >= 768px) {
+
   .content-section__title {
     grid-row: 1 / span var(--max-amount-of-rows);
     margin-block-end: 20px;
@@ -19,8 +20,10 @@
 }
 
 @media (width >= 1024px) {
+
   .content-section:nth-child(2) .content-section__title {
     grid-column: 1 / 4;
     grid-row: 1 / 2;
+    inline-size: 300px;
   }
 }

@@ -1,4 +1,5 @@
 @media (prefers-color-scheme: dark) {
+
   .page.theme_auto {
     --bg-color: #000028;
     --main-color: #f1b2ce;
@@ -17,6 +18,7 @@
 }
 
 @media (prefers-color-scheme: light) {
+
   .page.theme_auto {
     --bg-color: #f1b2ce;
     --main-color: #353430;

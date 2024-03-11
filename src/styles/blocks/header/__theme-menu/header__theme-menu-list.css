@@ -6,6 +6,7 @@
 }
 
 @media (width >= 1024px) {
+
   .header__theme-menu-list {
     flex-direction: row;
   }

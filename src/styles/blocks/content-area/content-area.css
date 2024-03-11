@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: column;
   row-gap: 50px;
-  inline-size: calc(100dvi - 20px);
+  inline-size: 100%;
 }
 
 @media (width >= 768px) {
+
   .content-area {
     row-gap: 80px;
-    inline-size: calc(100dvi - 40px);
   }
 }

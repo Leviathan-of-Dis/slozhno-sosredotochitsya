@@ -1,6 +1,6 @@
 .footer {
   display: flex;
-  inline-size: calc(100dvi - 20px);
+  inline-size: 100%;
   block-size: calc(100dvb - 20px);
   position: relative;
   align-items: center;
@@ -9,9 +9,10 @@
 }
 
 @media (width >= 768px) {
+
   .footer {
     margin-block-start: 60px;
-    inline-size: calc(100dvi - 40px);
+    inline-size: 100%;
     block-size: calc(100dvb - 40px);
   }
 }
