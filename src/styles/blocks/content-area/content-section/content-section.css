@@ -8,11 +8,13 @@
 
   .content-section {
     row-gap: 0;
+    
   }
 
   .content-section:nth-child(odd) {
     grid-template-columns: 1fr 2fr;
     grid-auto-flow: row;
+    column-gap: 16px;
   }
 }
 

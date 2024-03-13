@@ -5,13 +5,13 @@
   position: relative;
   align-items: center;
   justify-content: center;
-  margin-block-start: 40px;
+  margin-block-start: 42px;
 }
 
 @media (width >= 768px) {
 
   .footer {
-    margin-block-start: 60px;
+    margin-block-start: 84px;
     inline-size: 100%;
     block-size: calc(100dvb - 40px);
   }

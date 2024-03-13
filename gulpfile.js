@@ -29,7 +29,7 @@ function html() {
 }
 
 function css() {
-  const plugins = [autoprefixer(), mediaquery()];
+  const plugins = [autoprefixer()];
   return gulp
     .src('src/styles/**/*.css')
     .pipe(plumber())

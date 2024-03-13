@@ -5,16 +5,16 @@
   block-size: calc(100dvb - 20px);
   position: relative;
   align-content: space-between;
-  padding-block-end: clamp(56px, 14.96vi, 115px);
-  padding-block-start: clamp(75px, 25vi, 192px);
-  margin-block-end: 55px;
+  padding-block-end: clamp(56px, 14.96vi, 163px);
+  padding-block-start: clamp(60px, 18vi, 192px);
+  margin-block-end: 54px;
 }
 
 @media (width >= 768px) {
 
   .header {
     margin-block-end: 80px;
-    padding-block-end: 163px;
+    padding-block-end: clamp(163px, 15.5vi, 115px);
     inline-size: 100%;
     block-size: calc(100dvb - 40px);
   }

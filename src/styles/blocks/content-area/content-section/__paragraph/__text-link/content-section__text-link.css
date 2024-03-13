@@ -2,13 +2,16 @@
   display: inline-block;
   text-decoration: none;
   text-shadow: 2px 2px var(--accent-color);
+  padding: 1px;
 }
 
 .content-section__text-link:hover {
   border-block-end: 1px solid var(--main-color);
+  padding: 0;
 }
 
 .content-section__text-link:is(:focus, :focus-visible) {
   outline: none;
   border: 1px solid var(--main-color);
+  padding: 0;
 }

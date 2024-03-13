@@ -1,14 +1,11 @@
 .header__theme-menu {
   display: flex;
   justify-self: end;
-  position: relative;
-  inset-block-start: -27px;
 }
 
 @media (width >= 1024px) {
 
   .header__theme-menu {
     justify-self: center;
-    inset-block-start: 0;
   }
 }

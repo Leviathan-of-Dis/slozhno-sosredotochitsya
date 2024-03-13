@@ -10,6 +10,6 @@
   --accent-color-hover: #ff0070cc;
   --main-font: 'IBM Plex mono Regular', sans-serif;
   --accent-font: 'IBM Plex mono Bold', sans-serif;
-  --bg-image: url(/images/cover-image-dark.png);
+  --bg-image: url(./images/cover-image-dark.png);
   --max-amount-of-rows: 6;
 }

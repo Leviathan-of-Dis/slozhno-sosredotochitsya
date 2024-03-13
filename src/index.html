@@ -23,15 +23,16 @@
     <meta property="twitter:description" content="Страница о том, что делать если сложно сосредоточиться"/>
     <meta property="twitter:image" content="./images/tape.png" />
     <!-- Icons -->
-    <link rel="icon" href="/images/favicon.ico" sizes="any" />
-    <link rel="icon" href="/images/favicon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="/images/mobile-icon.png" />
+    <link rel="icon" href="./images/favicon.ico" sizes="any" />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
     <!-- Prefers -->
     <meta name="color-scheme" content="dark light" />
-    <!-- ------- -->
+    <!-- Title -->
     <title>Сложно сосредоточиться</title>
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="bundle.css" />
+    <link rel="stylesheet" href="./bundle.css" />
   </head>
   <body class="page">
     <header class="header">
@@ -40,30 +41,30 @@
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu__button header__theme-menu__button_type_light">
-              День
+              день
             </button>
           </li>
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu__button header__theme-menu__button_active header__theme-menu__button_type_auto" disabled>
-              Авто
+              авто
             </button>
           </li>
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu__button header__theme-menu__button_type_dark">
-              Неон
+              неон
             </button>
           </li>
         </ul>
       </nav>
-      <span class="header__record-lettering"> REC </span>
+      <span class="header__record-lettering" aria-hidden="true"> REC </span>
       <h1 class="header__title">no focus</h1>
-      <h2 class="header__text decorated-text">
+      <p class="header__text decorated-text">
         Что делать, когда не можешь делать ничего <br>
         Или почему нам так сложно сконцентрироваться, 
         особенно когда очень надо
-      </h2>
+      </p>
     </header>
     <main class="content-area">
       <section class="content-section">
@@ -149,13 +150,13 @@
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
-        <h3 class="decorated-text content-section__subtitle">
+        <p class="decorated-text content-section__subtitle">
           5 простых (на самом деле не очень) советов
-        </h3>
+        </p>
         <div class="content-section__paragraph">
-          <h4 class="decorated-text content-section__partitle">
+          <h3 class="decorated-text content-section__partitle">
             Представьте небо и облака
-          </h4>
+          </h3>
           <p class="content-section__text">
             Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
             успокоиться. Ведь часто именно тревожные мысли о сложных задачах как
@@ -168,9 +169,9 @@
           </p>
         </div>
         <div class="content-section__paragraph">
-          <h4 class="decorated-text content-section__partitle">
+          <h3 class="decorated-text content-section__partitle">
             Включите музыку
-          </h4>
+          </h3>
           <p class="content-section__text">
             Но не любую, и не любимую. Любимая может быть связана с сильными
             положительными эмоциями, которые тоже очень сильно отвлекают.
@@ -179,7 +180,7 @@
           </p>
         </div>
         <div class="content-section__paragraph">
-          <h4 class="decorated-text content-section__partitle">Прогуляйтесь</h4>
+          <h3 class="decorated-text content-section__partitle">Прогуляйтесь</h3>
           <p class="content-section__text">
             Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
             показал, что созерцание природы повышает концентрацию, в то время
@@ -190,7 +191,7 @@
           </p>
         </div>
         <div class="content-section__paragraph">
-          <h4 class="decorated-text content-section__partitle">Хорошо ешьте</h4>
+          <h3 class="decorated-text content-section__partitle">Хорошо ешьте</h3>
           <p class="content-section__text">
             Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
             которые препятствуют резким скачкам сахара в крови. Например, с
@@ -199,7 +200,7 @@
           </p>
         </div>
         <div class="content-section__paragraph">
-          <h4 class="decorated-text content-section__partitle">Читайте</h4>
+          <h3 class="decorated-text content-section__partitle">Читайте</h3>
           <p class="content-section__text">
             Настоящие бумажные книги. Это правда помогает с концентрацией: чтобы
             прочитать пост в соцсети, достаточно нескольких минут или даже
@@ -209,9 +210,9 @@
         </div>
       </section>
       <section class="content-section content-section_gallary">
-        <h3 class="content-section__title decorated-text">
+        <h2 class="content-section__title decorated-text">
           А можно в картинках?
-        </h3>
+        </h2>
         <div class="content-section_gallary__pictures">
           <picture class="content-section_gallary__pictures__sunset">
             <img
