@@ -4,7 +4,6 @@
   color: var(--main-title-color);
   text-shadow: 4px 4px 0 var(--main-title-shadow-color);
   line-height: 82.5%;
-  word-spacing: 60px;
 }
 
 @media (width >= 768px) {
