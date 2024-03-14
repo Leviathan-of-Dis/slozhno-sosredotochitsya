@@ -1,18 +1,21 @@
 .header__theme-menu__button {
   background-color: transparent;
-  border: none;
+  border: 1px solid transparent;
   color: var(--title-color);
-  font-family: var(--main-font);
-  padding: 1px 13px;
+  font-weight: normal;
+  padding-inline: 13px;
+  padding-block: 0;
 }
 
 .header__theme-menu__button:hover {
   border: 1px solid var(--accent-color-hover);
-  padding-block: 0;
+}
+
+.header__theme-menu__button:active {
+  border: 1px solid var(--accent-color-hover);
 }
 
 .header__theme-menu__button:is(:focus, :focus-visible) {
   outline: none;
   border-block-end: 1px solid var(--accent-color-hover);
-  padding-block: 0;
 }

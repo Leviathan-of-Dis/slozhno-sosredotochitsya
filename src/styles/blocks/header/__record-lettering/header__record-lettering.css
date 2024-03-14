@@ -1,6 +1,6 @@
 .header__record-lettering {
   display: var(--rec-lettering);
-  font-family: var(--main-font);
+  font-weight: normal;
   color: var(--accent-color);
   line-height: 1.4em;
   position: absolute;
@@ -16,7 +16,7 @@
   block-size: 9px;
   position: absolute;
   top: 8px;
-  left: 43px;
+  left: 48px;
   border-radius: 9px;
   box-shadow: 0 0 4px 2px;
 }

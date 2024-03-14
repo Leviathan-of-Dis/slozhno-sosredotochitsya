@@ -1,5 +1,5 @@
 .footer__title {
-  font-family: var(--accent-font);
+  font-weight: bold;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   color: var(--main-title-color);
   text-shadow: 2px 2px 0 var(--main-title-shadow-color);

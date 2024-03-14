@@ -8,8 +8,8 @@
   --accent-color: #ff8dcb;
   --main-title-shadow-color: #ff0070;
   --accent-color-hover: #32312d66;
-  --main-font: 'IBM Plex mono Regular', sans-serif;
-  --accent-font: 'IBM Plex mono Bold', sans-serif;
+  --main-font: 'IBM Plex mono', sans-serif;
+  --accent-font: 'IBM Plex mono', sans-serif;
   --bg-image: url(./images/cover-image-light.png);
   --rec-lettering: none;
 }

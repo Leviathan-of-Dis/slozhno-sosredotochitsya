@@ -1,4 +1,4 @@
 .content-section__text {
-  font-family: var(--main-font);
+  font-weight: normal;
   color: var(--main-color);
 }

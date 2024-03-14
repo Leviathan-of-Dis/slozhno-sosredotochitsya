@@ -1,4 +1,6 @@
 .header__theme-menu__button_active {
   border: 1px solid var(--title-color);
   pointer-events: none;
+  padding-block: 0;
+  padding-inline: 13px;
 }

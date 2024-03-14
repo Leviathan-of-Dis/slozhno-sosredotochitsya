@@ -6,7 +6,7 @@
   position: relative;
   align-content: space-between;
   padding-block-end: clamp(56px, 14.96vi, 163px);
-  padding-block-start: clamp(60px, 18vi, 192px);
+  padding-block-start: clamp(60px, 25vi, 170px);
   margin-block-end: 54px;
 }
 

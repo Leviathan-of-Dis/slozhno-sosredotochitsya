@@ -2,7 +2,7 @@
   display: flex;
   inline-size: clamp(355px, 100%, 364px);
   justify-self: end;
-  font-family: var(--accent-font);
+  font-weight: bold;
 }
 
 @media (1024px >= width > 768px) {
