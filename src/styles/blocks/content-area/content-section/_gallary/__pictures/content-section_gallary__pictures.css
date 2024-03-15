@@ -9,11 +9,18 @@
   .content-section_gallary__pictures {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 25dvi 1fr 42dvi;
+    grid-template-rows: 25dvi 1fr 41dvi;
     grid-template-areas:
       'sunset sunset ice-cream'
       'tape books ice-cream'
       'tape street street';
     gap: 20px;
+  }
+}
+
+@media (width >= 1024px) {
+
+  .content-section_gallary__pictures {
+    grid-template-rows: 25dvi 1fr 42.5dvi;
   }
 }

@@ -6,17 +6,20 @@
   position: relative;
   align-content: space-between;
   padding-block-end: clamp(56px, 14.96vi, 163px);
-  padding-block-start: clamp(60px, 25vi, 170px);
-  margin-block-end: 54px;
+  padding-block-start: clamp(30px, 17vi, 170px);
+  margin-block-end: 59px;
 }
 
 @media (width >= 768px) {
 
   .header {
     margin-block-end: 80px;
+    padding-block-start: clamp(30px, 25vi, 170px);
     padding-block-end: clamp(163px, 15.5vi, 115px);
     inline-size: 100%;
     block-size: calc(100dvb - 40px);
+
+
   }
 }
 

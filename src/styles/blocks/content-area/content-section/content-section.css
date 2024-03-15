@@ -23,4 +23,8 @@
   .content-section:nth-child(2) {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .content-section:nth-child(odd) {
+    column-gap: 13px;
+  }
 }

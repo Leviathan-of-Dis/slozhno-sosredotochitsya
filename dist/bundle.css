@@ -164,20 +164,6 @@ a {
   }
 }
 
-.content-area {
-  display: flex;
-  flex-direction: column;
-  row-gap: 50px;
-  inline-size: 100%;
-}
-
-@media (width >= 768px) {
-
-  .content-area {
-    row-gap: 80px;
-  }
-}
-
 .footer {
   display: flex;
   inline-size: 100%;
@@ -191,7 +177,7 @@ a {
 @media (width >= 768px) {
 
   .footer {
-    margin-block-start: 84px;
+    margin-block-start: 79px;
     inline-size: 100%;
     block-size: calc(100dvb - 40px);
   }
@@ -229,14 +215,15 @@ a {
   position: relative;
   align-content: space-between;
   padding-block-end: clamp(56px, 14.96vi, 163px);
-  padding-block-start: clamp(60px, 25vi, 170px);
-  margin-block-end: 54px;
+  padding-block-start: clamp(30px, 17vi, 170px);
+  margin-block-end: 59px;
 }
 
 @media (width >= 768px) {
 
   .header {
     margin-block-end: 80px;
+    padding-block-start: clamp(30px, 25vi, 170px);
     padding-block-end: clamp(163px, 15.5vi, 115px);
     inline-size: 100%;
     block-size: calc(100dvb - 40px);
@@ -275,30 +262,17 @@ a {
   border-block-end: 1px solid var(--frame-color);
 }
 
-.content-section {
-  display: grid;
+.content-area {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
   inline-size: 100%;
-  gap: 20px;
 }
 
 @media (width >= 768px) {
 
-  .content-section {
-    row-gap: 0;
-  }
-
-  .content-section:nth-child(odd) {
-    grid-template-columns: 1fr 2fr;
-    grid-auto-flow: row;
-    -moz-column-gap: 16px;
-         column-gap: 16px;
-  }
-}
-
-@media (width >= 1024px) {
-
-  .content-section:nth-child(2) {
-    grid-template-columns: repeat(3, 1fr);
+  .content-area {
+    row-gap: 80px;
   }
 }
 
@@ -314,6 +288,27 @@ a {
 
   .footer__title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+}
+
+.header__text {
+  display: flex;
+  inline-size: clamp(355px, 100%, 364px);
+  justify-self: end;
+  font-weight: bold;
+}
+
+@media (1024px >= width > 768px) {
+
+  .header__text {
+    inline-size: clamp(364px, 47.95vi, 491px);
+  }
+}
+
+@media (width > 1024px) {
+
+  .header__text {
+    inline-size: clamp(491px, 48vi, 100%);
   }
 }
 
@@ -338,27 +333,6 @@ a {
   left: 43px;
   border-radius: 9px;
   box-shadow: 0 0 4px 2px;
-}
-
-.header__text {
-  display: flex;
-  inline-size: clamp(355px, 100%, 364px);
-  justify-self: end;
-  font-weight: bold;
-}
-
-@media (1024px >= width > 768px) {
-
-  .header__text {
-    inline-size: clamp(364px, 47.95vi, 491px);
-  }
-}
-
-@media (width > 1024px) {
-
-  .header__text {
-    inline-size: clamp(491px, 48vi, 100%);
-  }
 }
 
 .header__theme-menu-list {
@@ -393,6 +367,8 @@ a {
   color: var(--main-title-color);
   text-shadow: 4px 4px 0 var(--main-title-shadow-color);
   line-height: 82.5%;
+  position: relative;
+  inset-block-start: 10px;
 }
 
 @media (width >= 768px) {
@@ -400,7 +376,7 @@ a {
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     position: relative;
-    inset-inline-end: 15px;
+    inset-inline-end: 20px;
   }
 }
 
@@ -411,9 +387,71 @@ a {
   }
 }
 
+.content-section {
+  display: grid;
+  inline-size: 100%;
+  gap: 20px;
+}
+
+@media (width >= 768px) {
+
+  .content-section {
+    row-gap: 0;
+  }
+
+  .content-section:nth-child(odd) {
+    grid-template-columns: 1fr 2fr;
+    grid-auto-flow: row;
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+  }
+}
+
+@media (width >= 1024px) {
+
+  .content-section:nth-child(2) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .content-section:nth-child(odd) {
+    -moz-column-gap: 13px;
+         column-gap: 13px;
+  }
+}
+
+.header__theme-menu__button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: var(--title-color);
+  font-weight: normal;
+  padding-inline: 13px;
+  padding-block: 0;
+}
+
+.header__theme-menu__button:hover {
+  border: 1px solid var(--accent-color-hover);
+}
+
+.header__theme-menu__button:active {
+  border: 1px solid var(--accent-color-hover);
+}
+
+.header__theme-menu__button:is(:focus, :focus-visible) {
+  outline: none;
+  border-block-end: 1px solid var(--accent-color-hover);
+}
+
 .content-section_gallary {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+}
+
+@media (width >= 768px) {
+
+  .content-section_gallary {
+    gap: 0;
+  }
 }
 
 .content-section__paragraph {
@@ -434,10 +472,6 @@ a {
   .content-section:nth-child(2) .content-section__paragraph:not(:nth-child(2)) {
     margin-block-start: 0;
   }
-}
-
-.content-section__subtitle {
-  font-weight: bold;
 }
 
 .content-section__title {
@@ -470,45 +504,15 @@ a {
   }
 }
 
-.header__theme-menu__button {
-  background-color: transparent;
-  border: 1px solid transparent;
-  color: var(--title-color);
-  font-weight: normal;
-  padding-inline: 13px;
+.content-section__subtitle {
+  font-weight: bold;
+}
+
+.header__theme-menu__button_active {
+  border: 1px solid var(--title-color);
+  pointer-events: none;
   padding-block: 0;
-}
-
-.header__theme-menu__button:hover {
-  border: 1px solid var(--accent-color-hover);
-}
-
-.header__theme-menu__button:active {
-  border: 1px solid var(--accent-color-hover);
-}
-
-.header__theme-menu__button:is(:focus, :focus-visible) {
-  outline: none;
-  border-block-end: 1px solid var(--accent-color-hover);
-}
-
-.content-section_gallary__pictures {
-  display: inherit;
-  flex-direction: column;
-  gap: 10px;
-}
-
-@media (width >= 768px) {
-
-  .content-section_gallary__pictures {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 25dvi 1fr 42dvi;
-    grid-template-areas: 'sunset sunset ice-cream'
-      'tape books ice-cream'
-      'tape street street';
-    gap: 20px;
-  }
+  padding-inline: 13px;
 }
 
 .content-section__partitle {
@@ -522,6 +526,32 @@ a {
 .content-section__text {
   font-weight: normal;
   color: var(--main-color);
+}
+
+.content-section_gallary__pictures {
+  display: inherit;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (width >= 768px) {
+
+  .content-section_gallary__pictures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 25dvi 1fr 41dvi;
+    grid-template-areas: 'sunset sunset ice-cream'
+      'tape books ice-cream'
+      'tape street street';
+    gap: 20px;
+  }
+}
+
+@media (width >= 1024px) {
+
+  .content-section_gallary__pictures {
+    grid-template-rows: 25dvi 1fr 42.5dvi;
+  }
 }
 
 .content-section__text-link {
@@ -542,12 +572,6 @@ a {
   padding: 0;
 }
 
-.header__theme-menu__button_active {
-  border: 1px solid var(--title-color);
-  pointer-events: none;
-  padding-block: 0;
-  padding-inline: 13px;
-}
 
 .content-section_gallary__pictures__books {
   grid-area: books;
@@ -568,4 +592,3 @@ a {
 .content-section_gallary__pictures__tape {
   grid-area: tape;
 }
-
